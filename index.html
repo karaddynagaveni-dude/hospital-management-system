@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hospital Management System</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<main class="landing">
+    <span class="eyebrow">Digital Hospital Records &amp; Care Coordination</span>
+
+    <h1 class="brand-title">Hospital <span>Management</span> System</h1>
+    <p class="brand-sub">
+        One centralized platform for patient records, doctor &amp; staff management,
+        appointment scheduling, bed allocation and billing — replacing manual
+        registers with a fast, accurate and secure workflow.
+    </p>
+
+    <!-- Signature element: animated ECG / heartbeat pulse line -->
+    <div class="pulse-wrap">
+        <svg class="pulse-line" viewBox="0 0 560 60" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path class="pulse-path" d="M0,30 L110,30 L130,10 L150,50 L170,30 L195,30 L215,5 L235,55 L255,30 L560,30" />
+        </svg>
+    </div>
+
+    <div class="portal-row">
+        <div class="portal-card">
+            <div class="portal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2 3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-3Z"/></svg>
+            </div>
+            <h3>Admin Portal</h3>
+            <p>Manage doctors, staff, patients, beds, appointments and billing from one dashboard.</p>
+            <a href="admin/login.php" class="btn btn-primary">Admin Login</a>
+        </div>
+
+        <div class="portal-card">
+            <div class="portal-icon">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg>
+            </div>
+            <h3>Patient Portal</h3>
+            <p>Register, book appointments with doctors and track your bills and records.</p>
+            <a href="user/login.php" class="btn btn-primary">User Login</a>
+        </div>
+    </div>
+
+    <div class="feature-strip">
+        <span>01</span> Centralized patient database &nbsp;·&nbsp;
+        <span>02</span> Role-based secure login &nbsp;·&nbsp;
+        <span>03</span> Automated billing &amp; reports
+    </div>
+</main>
+
+</body>
+</html>
